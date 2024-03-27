@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBM University</title>
+    <style>
+        h1 {
+
+            color: red;
+            text-align: center;
+        }
+
+
+        .img1 {
+            width: 99vw;
+            background-color: burlywood;
+            margin: 0px;
+            padding: 0px;
+            height: 15vh;
+            border: 2px solid black;
+        }
+
+        .img1>div {
+            display: inline;
+            float: inline-start;
+            text-align: center;
+
+        }
+
+        #navbar {
+            box-sizing: border-box;
+            width: 99.2vw;
+            /* border:2px solid black ; */
+            color: orange;
+            background-color: rgb(165, 120, 42);
+            margin: 0px;
+            padding: 15px;
+            /* float: left; */
+        }
+
+        div {
+            box-sizing: border-box;
+            display: inline;
+            padding: 12.8px;
+        }
+
+        .img1>span>img {
+            height: 14vh;
+            float: left;
+            margin: 2px;
+            padding: 2px;
+            position: relative;
+            top: 0px;
+            left: 50px;
+        }
+
+        .img1>div>h1 {
+            font-size: 80px;
+            text-align: center;
+            height: 20vh;
+            display: inline;
+            position: relative;
+            top: -5px;
+            left: 60px;
+            text-shadow: 5px 2px 5px rgb(182 20 255);
+        }
+
+        .sidebar>ul {
+            position: absolute;
+            height: 93.2vh;
+            width: 15vw;
+
+            border: 5px solid black;
+            overflow: scroll;
+            font-size: 20px;
+            text-align: center;
+
+            margin: 1px;
+            padding: 10px;
+            /* display: inline; */
+            background-color: rgb(64 94 109);
+        }
+
+        .sidebar>ul>li {
+
+            list-style: none;
+            padding: 1px;
+            border: 1px solid rgb(13, 61, 35);
+            /* margin: 2px; */
+            margin-bottom: 12px;
+        }
+
+        a:hover {
+            background-color: rgb(82, 82, 218);
+        }
+
+        a:visited {
+            color: orange;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        .sidebar>ul>li>a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        .slideshow {
+            position: relative;
+            /* Required for absolute positioning */
+            width: 100vw;
+            /* Adjust as needed */
+            height: 20vh;
+            /* Set the desired height */
+            overflow: hidden;
+            /* Hide overflowing content */
+        }
+
+        .slideshow img {
+            position: absolute;
+            /* Position images absolutely within the container */
+            top: 14px;
+            left: 230px;
+            width: 82vw;
+            margin-top: 1px;
+            /* Make images fill the container */
+            opacity: 0;
+            /* Initially hide all images */
+            transition: opacity 0.5s ease;
+            /* Smooth transition effect */
+        }
+
+        .slideshow img.active {
+            opacity: 1;
+            /* Show the active image */
+        }
+
+        .header>nav>span>img {
+            left: 5px;
+        }
+         .box{
+            position: fixed;
+            z-index: 2;
+            margin: -7px;
+            padding: 0px;
+        }
+        .screen{
+            position: relative;
+            top: 169px;
+            left: -7px;
+        } 
+    </style>
+
+</head>
+
+<body><div class="box">
+
+    <article class="img1">
+        <span><img src="M.B.M._Engineering_College_-_Logo.png"></span>
+        <div>
+            <h1>MBM UNIVERSITY JODHPUR</h1>
+        </div>
+    </article>
+    <header class="header">
+        <nav id="navbar">
+            <span><img height="30" width="30" src="download.png"></span>
+            <div> <a href="" target="_blank">Home</a></div>
+            <div> <a href="" target="_blank">Academics<div></div>
+                    <div> <a href="" target="_blank">Admission</a></div>
+                    <div><label for="Students">For Students</label>
+                        <select name="students" id="Students">
+                            <option value="DOWNLOAD ADMIT CARD">DOWNLOAD ADMIT CARD</option>
+                            <option value="Continuity Form">Continuity Form</option>
+                            <option value="Exam Form 2023-2024">Exam Form 2023-2024</option>
+                            <option value="RE-EVALUATION FORM">RE-EVALUATION FORM</option>
+                            <option value="IUMS Login">IUMS Login</option>
+                            <option value="MBM Result">MBM Result</option>
+                        </select>
+                    </div>
+                    <div><label for="staff">For Faculty&Staff</label>
+                        <select name="staff" id="staff">
+                            <option value="Assessment">Assessment</option>
+                            <option value="Incentives">Incentives</option>
+                            <option value="Teaching schadule">Teaching schadule</option>
+                            <option value="Rules & Policies">Rules & Policies</option>
+                            <option value=" Benefits & Facilities">Benefits & Facilities</option>
+                            <option value="Deans' Corner">Deans' Corner</option>
+                        </select>
+                    </div>
+                    <div> <a href="" target="_blank">Alumni</a></div>
+                    <div> <a href="" target="_blank">Resourses</a></div>
+                    <div> <a href="" target="_blank">Contect Us</a></div>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search your web">
+                    </div>
+        </nav>
+
+    </header>
+
+</div>
+    <article class="screen">
+        <div class="sidebar">
+            <ul>
+                <li> <strong> **Some Useful Links**</Some></strong></li>
+                <li> <a target="_blank" href="">About MBM</a> </li>
+                <li> <a target="_blank" href="">University Offices </a> </li>
+                <li> <a target="_blank" href="">External Practical Marks Feeding</a> </li>
+                <li> <a target="_blank" href="">Marks Feeding B.E.(1st & 2nd Sem Only)</a> </li>
+                <li> <a target="_blank" href="">Revolution Form (open and close date)</a> </li>
+                <li> <a target="_blank" href="">ICIC Online Payment Update</a> </li>
+                <li> <a target="_blank" href="">Examination Start and Close Date</a></li>
+                <li> <a target="_blank" href="">Student Login</a> </li>
+                <li> <a target="_blank" href="">Makeup ExamForm</a> </li>
+                <li> <a target="_blank" href="">Student Registration For Affliated colleges</a> </li>
+                <li> <a target="_blank" href="">Student Registration For Phd</a></li>
+                <li> <a target="_blank" href="">Student Registration For MCA</a></li>
+                <li> <a target="_blank" href="">other Important links</a></li>
+            </ul>
+        </div>
+        <!-- <pre><div>Home</div><br>Shorts<br>Subscription<br>You ><br>Your channel<br>History<br>Your videos<br>Watch later<br>Downloads<br>Show More></pre> -->
+
+        <div class="slideshow">
+            <img src="MBMU_Slide5.jpg" alt="Image 3">
+            <img src="mbmclgnew.jpg" alt="Image 1">
+            <img src="mbm1.jpg" alt="Image 2">
+            <img src="MBMU_Slide4.jpg" alt="Image 3">
+            <img src="MBMU_Slide2.jpg" alt="Image 3">
+            <img src="mbm3.jpg" alt="Image 3">
+            <!-- Add more images as needed -->
+        </div>
+        <hr> <br>
+        <hr>
+    </article>
+    <script src="collegeweb.js"></script>
+
+</body>
+
+</html>

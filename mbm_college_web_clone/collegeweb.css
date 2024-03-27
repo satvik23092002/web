@@ -1,0 +1,11 @@
+h1{
+    color: red;
+    text-align: center;
+}
+#navbar{
+    color:yellow;
+    background-color:red ;
+    margin: 20px;
+    padding: 20px; 
+    float: left;
+}
